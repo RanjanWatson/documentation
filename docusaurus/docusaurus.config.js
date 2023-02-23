@@ -93,7 +93,7 @@ const config = {
         },
         blog: false, // we're using docs-only mode for now — see https://docusaurus.io/docs/docs-introduction
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/scss/__index.scss'),
         },
       }),
     ],
@@ -232,6 +232,7 @@ const config = {
         containerId: 'GTM-KN9JRWG',
       },
     ],
+    'docusaurus-plugin-sass',
     // 'plugin-image-zoom', // temp. disabled while we fix the bug
     /**
      * Seems like we have an issue where a medium-zoom--hidden class is applied on the second, top-most (z-index wise) image,
