@@ -74,9 +74,9 @@ const config = {
   ],
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           routeBasePath: '/',
           sidebarPath: require.resolve('./sidebars.js'),
@@ -95,7 +95,7 @@ const config = {
         theme: {
           customCss: require.resolve('./src/scss/__index.scss'),
         },
-      }),
+      },
     ],
     [
       'redocusaurus',

@@ -1,8 +1,8 @@
 /** Base: General Styles */
 
 ::selection {
-  color: var(--strapi-neutral-0);
-  background-color: var(--strapi-primary-600);
+  background-color:  var(--custom-selection-background-color, var(--strapi-primary-600));
+  color: var(--custom-selection-color, var(--strapi-neutral-0));
 }
 
 main {
