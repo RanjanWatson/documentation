@@ -25,15 +25,15 @@ code {
   color: var(--custom-code-color);
 }
 
-p, li, table {
-  code {
-    font-size: 13px;
-  }
-}
-
 /** Dark mode */
 @include dark {
-  pre:not(.prism-code) code {
-    background-color: var(--strapi-warning-200);
+  code {
+    --custom-code-background-color: var(--strapi-neutral-600);
+    --custom-code-border-color: var(--strapi-neutral-600);
+    --custom-code-color: var(--strapi-neutral-1000);
+  }
+
+  a code {
+    color: var(--custom-code-color);
   }
 }

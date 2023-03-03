@@ -1,12 +1,13 @@
 /** Component: Card */
 
 :root body {
+  --custom-card-border-color: var(--strapi-neutral-200);
+
   --ifm-card-background-color: var(--strapi-neutral-0);
   --ifm-card-border-radius: var(--strapi-spacing-1);
 }
 
 .card {
-  --custom-card-border-color: var(--strapi-neutral-200);
   --ifm-color-emphasis-200: var(--custom-card-border-color);
 
   border: 1px solid var(--custom-card-border-color);

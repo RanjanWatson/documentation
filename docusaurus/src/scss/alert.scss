@@ -10,6 +10,8 @@
   --ifm-heading-line-height: 24px;
 
   --ifm-link-decoration: none;
+  --ifm-link-color: var(--custom-alert-title-color);
+  --ifm-link-hover-color: var(--custom-alert-title-color);
 
   &.admonition {
     &--strapi {
